@@ -7,7 +7,7 @@ x-environment:
    # - JAVA_HTTPS_PROXY=-Dhttps.proxyHost=xxx.xxx.xxx.xx -Dhttps.proxyPort=xxxx 
    # - JAVA_SOCKS_PROXY=-DsocksProxyHost=xxx.xxx.xxx.xx -DsocksProxyPort=xxxx
    # - JAVA_NON_PROXY_HOSTS=-Dhttp.nonProxyHosts=*symbiote-h2020.eu|*intracom-telecom.com|symbiote-coreconfig|symbiote-aam|symbiote-eureka|symbiote-mongo|localhost|10.*.*.*
-   ## _JAVA_OPTIONS=-Dhttps.proxyHost=xxx.xxx.xxx.xx -Dhttps.proxyPort=xxxx -Dhttp.proxyHost=146.124.225.18 -Dhttp.proxyPort=3128 $JAVA_NON_PROXY_HOSTS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -Dhttp.sslVerify=false
+   ## _JAVA_OPTIONS=-Dhttps.proxyHost=xxx.xxx.xxx.xx -Dhttps.proxyPort=xxxx -Dhttp.proxyHost=xxx.xxx.xxx.xx -Dhttp.proxyPort=3128 $JAVA_NON_PROXY_HOSTS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -Dhttp.sslVerify=false
    #- _JAVA_OPTIONS= -Dhttps.proxyHost=xxx.xxx.xxx.xx -Dhttps.proxyPort=xxxx  $JAVA_NON_PROXY_HOSTS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -Dhttp.sslVerify=false
     - TZ=Europe/Athens   
 
